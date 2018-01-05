@@ -20,7 +20,7 @@
         htmlize
         ;; ob, org and org-agenda are installed by `org-plus-contrib'
         (ob :location built-in)
-        (org :location built-in)
+        ; (org :location built-in)
         (org-agenda :location built-in)
         (org-brain :toggle (version<= "25" emacs-version))
         (org-expiry :location built-in)
